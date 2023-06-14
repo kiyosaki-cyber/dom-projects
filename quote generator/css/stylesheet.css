@@ -1,0 +1,68 @@
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/img/desktop-wallpaper-textured-black-spade-ace-of-spades-iphone-thumbnail.jpg);
+    background-repeat: repeat-x;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    height: 500px;
+}
+h1{
+    text-transform: capitalize;
+    background-color:rgb(62, 122, 1);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    font-weight: 800;
+    text-align: center;
+    width: fit-content;
+}
+.main-content{
+    background-color: transparent;
+    border-radius: 5px;
+}
+.text-area{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.person{
+    font-style: italic;
+    font-size: 1.25rem;
+    color: wheat;
+}
+.button-area{
+    padding: 10px;
+
+}
+button{
+  background-color: rgb(88, 177, 0);
+  padding: 7.5px;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+}
+button:active{
+    background-color: rgb(87, 1, 87);
+}
+
+
+
+
+
+
+
+
+

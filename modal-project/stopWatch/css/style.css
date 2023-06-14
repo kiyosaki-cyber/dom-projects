@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/istockphoto-1385299427-170667a.webp);
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    height: 30vh;
+    width: 30vw;
+    border-radius: 5px;
+    border: none;
+}
+#timer{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+}
+.buttons{
+   text-align: center;
+}
+button{
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#play{
+    background-color: green;
+   
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+   
+    background-color: crimson;
+   
+}
